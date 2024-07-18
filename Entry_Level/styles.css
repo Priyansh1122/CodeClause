@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;                  
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li input[type="text"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    background-color: #f9f9f9;
+}
+
+.about-us{
+    text-align: center;
+    margin:10px;
+    border:2px solid red;
+    box-sizing: border-box;
+}
+
+.services {
+    margin-top:100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    flex-basis: 45%;
+    width:1500px;
+}
+
+
+
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1em 0;
+    border-top: 1px solid #e1e1e1;
+}
+
+.image{
+    width:400px;
+    float:right;
+    border:1px solid black;
+    
+}
